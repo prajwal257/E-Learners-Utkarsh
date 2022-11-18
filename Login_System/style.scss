@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    a{
+        margin-left: 10vh;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+}
+form{
+    position: absolute;
+    margin-left: 10vh;
+    display: flex;
+    flex-flow: column;
+    width: 25vh;
+    input{
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px solid black;
+        height: 30px;
+        margin-top: 20px;
+    }
+    input:submit{
+        border: 1px solid black;
+        background-color: transparent;
+        transition: all 0.25s;
+    }:hover{
+        background-color: black;
+        color: white;
+    }
+}
