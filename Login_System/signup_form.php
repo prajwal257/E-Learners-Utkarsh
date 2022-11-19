@@ -1,0 +1,33 @@
+<?php
+    $error = "";
+    if($_GET['error']){
+        $error = "Username already exists";
+    }
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login-System</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Login</a>
+        <a href="signup.html">Signup</a>
+    </nav>
+    <form action="signup.php" method="post">
+        <input type="text" name="username" id="" placeholder="username">
+        <input type="email" name="email" id="" placeholder="email">
+        <input type="password" name="password" id="" placeholder="password">
+        <input type="submit" value="submit">
+    </form>
+    <div class="error">
+        <?php
+            echo "<h1>" . $error . "</h1>";
+        ?>
+    </div>
+</body>
+</html>
