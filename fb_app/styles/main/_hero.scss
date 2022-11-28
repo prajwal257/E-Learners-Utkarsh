@@ -1,0 +1,50 @@
+.posts{
+    padding: 0px 0px 0px 10vw;
+    .post{
+        height: 20vh;
+        margin: 10px;
+        width: 30vw;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding: 20px;
+        h1{
+            font-size: 24px;
+            font-weight: 300;
+            margin: 10px;
+        }
+        p{
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+            height: 36px;
+            width: 64px;
+            font-weight: 600;
+            font-size: 12px;
+            border-radius: 5px;
+            color: black;
+        }button:hover{
+            background-color: crimson;
+        }
+    }:hover{
+        background-color: black;
+    }
+}
+main{
+    padding: 5vh;
+}
+form{
+    input{
+        display: block;
+        margin: 10px 0px;
+        height: 50px;
+        width: 250px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 5px;
+    }:active{
+        background-color: black;
+    }
+}
