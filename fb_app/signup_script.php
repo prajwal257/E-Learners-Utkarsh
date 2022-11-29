@@ -37,7 +37,7 @@
                 exit;
             }
             else{
-                echo "somthing wrong happend with database.";
+                echo "something wrong happend with script.";
             }
         }
     }

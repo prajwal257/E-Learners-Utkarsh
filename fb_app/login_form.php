@@ -7,8 +7,8 @@
     <main>
         <h1>LOGIN</h1>
         <form action="login_script.php" method="post">
-            <input type="text" name="username" placeholder="username">
-            <input type="password" name="password" placeholder="password">
+            <input type="text" name="username" placeholder="username" required>
+            <input type="password" name="password" placeholder="password" required>
             <input type="submit" name="submit">
         </form>
     </main>
